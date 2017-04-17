@@ -82,7 +82,7 @@ module.exports = function (grunt) {
         rewrite: {
             // the key '^/api' is a regex for the path to be rewritten
             // the value is the context of the data service
-            '^/api': '/data-service-path'
+            '^/api': 'http://localhost:8080/rest/'
         }
       }],
       livereload: {
